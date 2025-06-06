@@ -22,4 +22,110 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
+    color: #222;
+}
+
+/**************************************************
+Global styling
+**************************************************/
+a {
+    color: #0d0994;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.bg-main {
+    background: #0d0994;
+}
+
+.text-main {
+    color: #0d0994;
+}
+.text-scnd {
+    color: #ffd800;
+}
+
+a:hover {
+    color: #322dc9;
+    transition: all 0.3s;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+}
+
+.btn-main {
+    background: #0d0994;
+    color: #fff;
+}
+.btn-main:hover {
+    background: #322dc9;
+    color: #fff;
+}
+
+.btn-outline-main {
+    background: none;
+    outline: 2px solid #0d0994;
+}
+.btn-outline-main:hover {
+    background: #0d0994;
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*************************************
+Main Styling
+*************************************/
+
+
+/*************************************
+Header
+*************************************/
+.top-strip {
+    width: 100%;
+    height: 50px;
+    background: #050342;
+    background: linear-gradient(0deg, rgba(5, 3, 66, 1) 0%, rgba(5, 3, 66, 1) 50%, rgba(13, 9, 148, 1) 100%);
+    padding: 0 50px;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-strip-left, .top-strip-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden; /* Prevent image overflow */
+    position: relative;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure it fills the space nicely */
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
 }

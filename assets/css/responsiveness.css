@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+    .top-strip {
+        height: 70px;
+    }
+    .top-strip-right {
+        flex-direction: column;
+    }
+}
