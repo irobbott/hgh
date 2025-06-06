@@ -74,9 +74,14 @@ a:hover {
     color: #fff;
 }
 
-ul {
+ul, li {
     list-style-type: none;
     padding: 0;
+}
+
+button {
+    background: none;
+    border: none;
 }
 
 /*************************************
@@ -128,4 +133,57 @@ header {
   top: 50%;
   transform: translateY(-50%);
   bottom: auto;
+}
+
+/***************************************
+Navbar
+***************************************/
+nav {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #0e099431;
+    position: absolute;
+    top: 50;
+    left: 0;
+    z-index: 100;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.brand {
+    width: 200px;
+}
+
+.main-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+}
+
+.main-menu li a {
+    color: #fff;
+}
+.main-menu li a:hover {
+    color: #070547;
+}
+
+.right-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.mobile-nav-btn {
+    display: none;
+}
+
+.mobile-nav-btn button {
+    width: 20px;
+    height: 20px;
 }
