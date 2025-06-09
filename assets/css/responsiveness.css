@@ -14,6 +14,9 @@
     .main-menu {
         display: none;
     }
+    .mobile-nav-menu {
+        display: block;
+    }
 }
 
 @media (max-width: 600px) {
@@ -29,11 +32,24 @@
     nav {
         padding: 0 5px;
     }
+    .right-btn-contact {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
     .top-strip {
         padding: 0 20px;
+    }
+    .mobile-nav-menu-inner .mobile-menu-item {
+        width: 50px;
+        height: 50px;
+    }
+    .mobile-menu-item .ctn {
+        font-size: 8px;
+    }
+    .mobile-menu-item i {
+        font-size: 0.7em;
     }
 }
 
