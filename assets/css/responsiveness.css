@@ -5,6 +5,9 @@
     .main-menu {
         gap: 10px;
     }
+    section {
+        padding: 130px 20px;
+    }
 }
 
 @media (max-width: 780px) {
@@ -28,12 +31,27 @@
     }
 }
 
+@media (max-width: 580px) {
+    .why-sect-top-curve,
+    .why-sect-bottom-curve,
+    .why-sect-imgs .row .col-sm-4:nth-child(2),
+    .why-sect-imgs .row .col-sm-4:nth-child(3) {
+        display: none;
+    }
+    .why-sect-imgs div {
+        width: 100%;
+    }
+}
+
 @media (max-width: 450px) {
     nav {
         padding: 0 5px;
     }
     .right-btn-contact {
         display: none;
+    }
+    section {
+        padding: 130px 5px;
     }
 }
 

@@ -67,11 +67,22 @@ a:hover {
 
 .btn-outline-main {
     background: none;
+    color: #0d0994;
     outline: 2px solid #0d0994;
 }
 .btn-outline-main:hover {
     background: #0d0994;
     color: #fff;
+}
+
+.btn-outline-white {
+    background: none;
+    color: #fff;
+    outline: 2px solid #fff;
+}
+.btn-outline-white:hover {
+    background: #fff;
+    color: #0d0994;
 }
 
 ul, li {
@@ -82,6 +93,17 @@ ul, li {
 button {
     background: none;
     border: none;
+}
+
+section {
+    width: 100%;
+    padding: 130px 50px;
+}
+.section-inner {
+    width: 100%;
+}
+.section-inner h2 {
+    font-size: 2.3em;
 }
 
 /*************************************
@@ -139,12 +161,11 @@ header {
 Navbar
 ***************************************/
 nav {
-    position: relative;
     width: 100%;
     height: 100px;
     background: #0e099431;
     position: absolute;
-    top: 50;
+    top: 0;
     left: 0;
     z-index: 100;
     padding: 0 50px;
@@ -152,6 +173,12 @@ nav {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    transition: background 0.3s ease, position 0.3s ease;
+}
+
+nav.fixed {
+    position: fixed;
+    background: #0e0994;
 }
 
 .brand {
@@ -244,4 +271,44 @@ nav {
     background: #070547;
     color: #fff;
     transition: all 0.3s;
+}
+
+/* Why choose us */
+.why-sect {
+    width: 100%;
+}
+
+.why-sect-list li {
+    margin: 10px 0;
+}
+
+.why-sect-list li span {
+    margin-right: 20px;
+}
+
+.why-sect-imgs {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-sect-imgs div {
+    height: 300px;
+}
+
+.why-sect-imgs div img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+
+.why-sect-top-curve, .why-sect-bottom-curve {
+    width: 100%;
+    height: 10px;
+    background: #fff;
+    border-radius: 100%;
+    z-index: 100;
 }
