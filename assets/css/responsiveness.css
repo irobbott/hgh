@@ -22,6 +22,12 @@
     }
 }
 
+@media (max-width: 765px) {
+    .s-btn-hide {
+        display: block;
+    }
+}
+
 @media (max-width: 600px) {
     .top-strip {
         height: 70px;

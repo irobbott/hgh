@@ -97,13 +97,17 @@ button {
 
 section {
     width: 100%;
-    padding: 130px 50px;
+    padding: 60px 50px;
 }
 .section-inner {
     width: 100%;
 }
 .section-inner h2 {
     font-size: 2.3em;
+}
+
+i {
+    transition: all 0.3s;
 }
 
 /*************************************
@@ -311,4 +315,36 @@ nav.fixed {
     background: #fff;
     border-radius: 100%;
     z-index: 100;
+}
+
+.why-sect a:hover i {
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+/********************************************
+Services
+********************************************/
+.section-inner .services a.btn:hover i {
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+.service-cards .card {
+    background: #e4e3fd;
+    border: none;
+    height: 400px;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+
+.service-cards .card:hover {
+    box-shadow: 0px 0px 18px -4px rgba(191,191,191,0.75);
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(191,191,191,0.75);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(191,191,191,0.75);
+    transition: all 0.3s;
+}
+
+.s-btn-hide {
+    display: none;
 }
