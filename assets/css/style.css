@@ -449,7 +449,7 @@ Booking - Homepage
 .sch-call {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .sch-call .sch-phone {
@@ -464,5 +464,103 @@ Booking - Homepage
 }
 
 .sch-call .sch-num a {
-    font-size: 1.6em;
+    font-size: 1.4em;
+}
+
+/********************************************
+Footer
+********************************************/
+footer {
+    width: 100%;
+    padding: 80px 50px 0 50px;
+    background: #070547;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+.footer-img {
+    max-width: 300px;
+}
+
+.footer-socials {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 40px 0;
+}
+
+.footer-socials li {
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-socials li i {
+    font-size: 1.4em;
+    color: #070547;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a:hover {
+    margin-left: 5px;
+    transition: all 0.3s;
+}
+
+.bottom-footer {
+    width: 100%;
+    height: 70px;
+    padding: 20px 0;
+    background: #070547;
+    border-top: 1px solid #e4e3fd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* iRobbott */
+.r-tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.r-tooltip:hover {
+    color: #1abc9c;
+}
+
+.r-tooltip .r-tooltiptext {
+    visibility: hidden;
+    width: 230px;
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the link */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+.r-tooltip:hover .r-tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
