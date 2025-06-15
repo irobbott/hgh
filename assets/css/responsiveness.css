@@ -36,6 +36,12 @@
     }
 }
 
+@media (max-width: 770px) {
+    .about-left img {
+        display: none;
+    }
+}
+
 @media (max-width: 765px) {
     .s-btn-hide {
         display: block;
