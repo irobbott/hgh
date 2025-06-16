@@ -643,3 +643,10 @@ section#about-page {
 #about-page .service-cards .card h4 {
     font-size: 1em;
 }
+
+/********************************************
+Service page
+********************************************/
+section#service-section {
+    margin-bottom: 200px;
+}
