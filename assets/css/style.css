@@ -236,7 +236,7 @@ nav.fixed {
     width: 200px;
 }
 
-.main-menu {
+/* .main-menu {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -248,8 +248,49 @@ nav.fixed {
     color: #fff;
 }
 .main-menu li a:hover {
-    color: #070547;
+    color: #c4c4c4;
+} */
+
+.main-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    list-style: none; /* ensure list bullets are removed */
+    padding: 0;
+    margin: 0;
 }
+
+.main-menu li a {
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.main-menu li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+
+.main-menu li a:hover {
+    color: #c4c4c4;
+}
+
+.main-menu li a:hover::after {
+    transform: scaleX(1);
+}
+/* *************************************** */
 
 .right-btn {
     display: flex;
@@ -642,6 +683,14 @@ section#about-page {
 
 #about-page .service-cards .card h4 {
     font-size: 1em;
+}
+
+section#service-section .service-cards .card {
+    background: #e4e3fd;
+    border: none;
+    height: 250px;
+    justify-content: space-between;
+    transition: all 0.3s;
 }
 
 /********************************************
