@@ -149,37 +149,20 @@
                         You can reach out to us through calls or emails, or you can send us a message directly
                     </p>
                     <div class="ctn-socials">
-                        <li class="my-2"><a href="tel:+15551234567" class="text-dark"><i class="fa-solid fa-phone"></i> (555) 123-4567</a></li>
+                        <li class="my-2"><a href="tel:+7346248724" class="text-dark"><i class="fa-solid fa-phone"></i> +7346248724</a></li>
                         <li class="my-2"><a href="mailto:info@hghmobilelabs.com" class="text-dark"><i class="fa-solid fa-envelope"></i> info@hghmobilelabs.com</a></li>
                         <li class="my-2" class="text-dark"><i class="fa-solid fa-location-dot"></i> Phoenix & surrounding areas</li>
                     </div>
                     <div class="ctn-hours mt-4">
                         <span class="fw-bold"><i class="fa-solid fa-clock-rotate-left"></i> Hours: <br></span>
                         Monday - Friday: 7 AM - 6 PM <br>
-                        Saturday: 8 AM - 12 PM
+                        Saturday: 8 AM - 12 PM <br>
+                        Sunday: 12 PM - 6 PM
                     </div>
                 </div>
                 <!-- Service cards -->
                 <div class="col-md-7 mt-4">
                     <div class="ctn-form">
-                        <!-- <form action="" method="post">
-                            <div class="from-group mb-4">
-                                <div class="row">
-                                    <div class="col-md-6 mb-4">
-                                        <input type="text" name="name" id="" class="form-control" placeholder="Full Name">
-                                    </div>
-                                    <div class="col-md-6">
-                                        <input type="email" name="email" id="" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group mb-4">
-                                <textarea name="message" id="" cols="30" rows="10" class="form-control" placeholder="Your message..."></textarea>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-main"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
-                            </div>
-                        </form> -->
                         <form action="" method="post">
                             <?php if (isset($_SESSION['form_status'])): ?>
                                 <?php list($type, $msg) = $_SESSION['form_status']; ?>
@@ -231,7 +214,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus.
                 </div>
                 <div class="footer-socials">
-                    <a href="tel:+15551234567">
+                    <a href="tel:+7346248724">
                         <li><i class="fa-solid fa-phone"></i></li>
                     </a>
                     <a href="mailto:info@hghmobilelabs.com">
