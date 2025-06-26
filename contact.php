@@ -149,7 +149,7 @@
                         You can reach out to us through calls or emails, or you can send us a message directly
                     </p>
                     <div class="ctn-socials">
-                        <li class="my-2"><a href="tel:+7346248724" class="text-dark"><i class="fa-solid fa-phone"></i> +7346248724</a></li>
+                        <li class="my-2"><a href="tel:+6023268308" class="text-dark"><i class="fa-solid fa-phone"></i> +6023268308</a></li>
                         <li class="my-2"><a href="mailto:info@hghmobilelabs.com" class="text-dark"><i class="fa-solid fa-envelope"></i> info@hghmobilelabs.com</a></li>
                         <li class="my-2" class="text-dark"><i class="fa-solid fa-location-dot"></i> Phoenix & surrounding areas</li>
                     </div>
@@ -214,7 +214,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus.
                 </div>
                 <div class="footer-socials">
-                    <a href="tel:+7346248724">
+                    <a href="tel:+6023268308">
                         <li><i class="fa-solid fa-phone"></i></li>
                     </a>
                     <a href="mailto:info@hghmobilelabs.com">
