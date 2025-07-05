@@ -127,7 +127,7 @@ Main Styling
 /*************************************
 Header
 *************************************/
-.top-strip {
+/* .top-strip {
     width: 100%;
     height: 50px;
     background: #050342;
@@ -137,6 +137,33 @@ Header
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+.top-strip {
+    width: 100%;
+    /* height: 50px; */
+    background: #050342;
+    background: linear-gradient(0deg, rgba(5, 3, 66, 1) 0%, rgba(5, 3, 66, 1) 50%, rgba(13, 9, 148, 1) 100%);
+    font-weight: bold;
+}
+
+.top-strip .move-group {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.move {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.top-strip .move .m-dot {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .top-strip-left, .top-strip-right {
@@ -496,7 +523,8 @@ Booking - Homepage
 .booking-section {
     width: 100%;
     min-height: 450px;
-    margin: -200px 0 auto;
+    /* margin: -200px 0 auto; */
+    margin: 0 auto;
     box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.74);
     -webkit-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.74);
     -moz-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.74);
@@ -544,6 +572,66 @@ Booking - Homepage
 
 .sch-call .sch-num a {
     font-size: 1.4em;
+}
+
+/********************************************
+Helpful tips
+********************************************/
+section#helpful {
+    background: url('../images/about-img.jpg')no-repeat center center/cover;
+    background-attachment: fixed;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+section#helpful .section-inner {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dark-overlay-h {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #000000bd;
+}
+
+section#helpful .tips li {
+    margin: 20px 0;
+}
+
+section#helpful .tips li i {
+    margin-right: 10px;
+}
+
+/********************************************
+Payment options
+********************************************/
+section#payments {
+    margin: 40px 0;
+}
+
+section#payments .row {
+    align-items: center;
+}
+
+section#payments .row .col-md-5 {
+    margin-bottom: 40px;
+}
+
+.payment-cards {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.payment-cards img {
+    width: 100%;
 }
 
 /********************************************

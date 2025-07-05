@@ -70,7 +70,7 @@
 </head>
 <body>
     <!-- Top strip -->
-    <div class="top-strip">
+    <!-- <div class="top-strip">
         <div class="top-strip-left">
             <div class="social-icon">
                 <a href="https://www.facebook.com/profile.php?id=61577637539106" class="text-white" target="_blank">
@@ -95,6 +95,9 @@
                 All Around Phoenix & Beyond
             </div>
         </div>
+    </div> -->
+    <div class="top-strip">
+        
     </div>
     <!-- // Top strip -->
     
