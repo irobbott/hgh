@@ -70,34 +70,31 @@
 </head>
 <body>
     <!-- Top strip -->
-    <!-- <div class="top-strip">
-        <div class="top-strip-left">
-            <div class="social-icon">
-                <a href="https://www.facebook.com/profile.php?id=61577637539106" class="text-white" target="_blank">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-            </div>
-            <div class="social-icon">
-                <a href="https://www.instagram.com/hope.gracehappiness/" class="text-white" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </div>
-        </div>
-        <div class="top-strip-right">
-            <div class="top-strip-right-info">
-                <a href="mailto:info@hghmobilelabs.com" class="text-white">
-                    <i class="fa-solid fa-envelope"></i>
-                    info@hghmobilelabs.com
-                </a>
-            </div>
-            <div class="top-strip-right-info text-white">
-                <i class="fa-solid fa-location-dot"></i>
-                All Around Phoenix & Beyond
-            </div>
-        </div>
-    </div> -->
     <div class="top-strip">
-        
+        <marquee behavior="" direction="">
+            <div class="move-group">
+                <div class="move text-white">
+                    <div class="m-dot"></div>
+                    <div>Call or text to schedule an appointment</div>
+                </div>
+                <div class="move text-white">
+                    <div class="m-dot"></div>
+                    <div>Call or text to schedule an appointment</div>
+                </div>
+                <div class="move text-white">
+                    <div class="m-dot"></div>
+                    <div>Call or text to schedule an appointment</div>
+                </div>
+                <div class="move text-white">
+                    <div class="m-dot"></div>
+                    <div>Call or text to schedule an appointment</div>
+                </div>
+                <div class="move text-white">
+                    <div class="m-dot"></div>
+                    <div>Call or text to schedule an appointment</div>
+                </div>
+            </div>
+        </marquee>
     </div>
     <!-- // Top strip -->
     
